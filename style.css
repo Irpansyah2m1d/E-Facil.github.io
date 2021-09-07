@@ -1,0 +1,23 @@
+.jumbotron {
+  padding-top: 5rem;
+  background-color: #00bfff;
+}
+
+.logo {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.brand {
+  width: 30px;
+  border-radius: 50%;
+}
+
+.jualan,
+.footer {
+  background-color: #00bfff;
+}
+
+a {
+  text-decoration: none;
+}
