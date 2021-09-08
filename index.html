@@ -9,15 +9,16 @@
     <link href="bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="bootstrap-5.0.2-dist/icons-1.5.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css"> 
+    <link rel="shorcut icon" href="img/brand.ico">
 
-    <title>E-Commerce | POLSRI</title>
+    <title>E-Facil | POLSRI</title>
   </head>
   <body>
 <!-- Awal Navbar -->
-    <nav class="navbar navbar-expand-sm navbar-dark bg-primary shadow-lg fixed-top">
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary shadow-lg fixed-top">
     <div class="container">
-    <img src="img/gambar6.png" class="brand">
-        <a class="navbar-brand ms-3 fw-bold" href="#">       E - Commerce</a>
+    <img src="img/brand.png" class="brand">   
+        <a href="#" class="navbar-brand me-auto ms-2 fw-bold">  E-FACIL </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
@@ -27,13 +28,13 @@
             <a class="nav-link active" aria-current="page" href="index.html"><i class="bi bi-house-fill"></i> Home</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="#"><i class="bi bi-book-half"></i>  Informasi</a>
+            <a class="nav-link" href="informasi.html"><i class="bi bi-book-half"></i>  Informasi</a>
             </li>   
             <li class="nav-item">
-            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"> <i class="bi bi-stopwatch-fill"></i>   Review Produk</a>
+            <a class="nav-link" href="review.html" tabindex="-1" aria-disabled="true"> <i class="bi bi-stopwatch-fill"></i>   Review Produk</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"> <i class="bi bi-info-circle-fill"></i> About</a>
+            <a class="nav-link" href="about.html" tabindex="-1" aria-disabled="true"> <i class="bi bi-info-circle-fill"></i> About</a>
             </li>
         </ul>
     </div>
@@ -42,9 +43,9 @@
 
 <!-- Isi -->
     <section class="jumbotron text-center">
-        <img src="img/gambar6.png" alt="Brand Perusahaan" class="logo img-thumbnail">
-        <h1>CV. Dikpol Abadi</h1>
-        <p>Perusahaan yang bergerak dibidang pembuatan kerajinan-kerajinan</p>
+        <img src="img/brand.png" alt="Brand Perusahaan" class="logo img-thumbnail">
+        <h1 class="text-white">Facil Store</h1>
+        <p class="fw-bold">Perusahaan yang bergerak dibidang pembuatan kerajinan-kerajinan</p>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffff" fill-opacity="1" d="M0,256L48,229.3C96,203,192,149,288,149.3C384,149,480,203,576,213.3C672,224,768,192,864,181.3C960,171,1056,181,1152,197.3C1248,213,1344,235,1392,245.3L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
     </section>
 
@@ -83,7 +84,7 @@
         <div class="row text-center">
             <div class="col-md-4">
                 <div class="card mb-3" >
-                    <img src="img/gambar6.png" class="card-img-top const1 " alt="...">
+                    <img src="img/gambar1.png" class="card-img-top const1 " alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Lemari Kayu</h5>
                         <p class="card-text">Sebuah Produk Unggulan Dari CV. DikPol Abadi</p>
@@ -93,7 +94,7 @@
             </div>
             <div class="col-md-4 ">
                 <div class="card mb-3">
-                    <img src="img/gambar6.png" class="card-img-top const2" alt="...">
+                    <img src="img/gambar2.png" class="card-img-top const2" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Lemari Kayu</h5>
                         <p class="card-text">Sebuah Produk Unggulan Dari CV. DikPol Abadi</p>
@@ -103,7 +104,7 @@
             </div>
             <div class="col-md-4 ">
                 <div class="card mb-3">
-                    <img src="img/gambar6.png" class="card-img-top const3" alt="...">
+                    <img src="img/gambar3.png" class="card-img-top const3" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Lemari Kayu</h5>
                         <p class="card-text">Sebuah Produk Unggulan Dari CV. DikPol Abadi</p>
@@ -125,26 +126,43 @@
 <section class="pemesanan">
     
     <div class="container">
-        <div class="row">
+        <div class="row mb-5">
             <div class="col text-center">
                 <h2>Pemesanan Produk</h2>
             </div>
         </div>
         <div class="row justify-content-center">
+           
             <div class="col-md-8 justify-content-center">
-                <label for="nama" class="form-label">Nama Lengkap</label>
-                 <input type="text" id="nama" class="form-control" aria-describedby="passwordHelpBlock">
-                <label for="alamat" class="form-label">Alamat Lengkap</label>
-                 <input type="text" id="Alamat" class="form-control" aria-describedby="passwordHelpBlock">
-                <label for="hp" class="form-label">No. Handphone</label>
-                 <input type="text" id="hp" class="form-control" aria-describedby="passwordHelpBlock">
-                <label for="produk" class="form-label">Produk Yang Dipilih</label>
-                 <input type="text" id="produk" class="form-control" aria-describedby="passwordHelpBlock">
-                <label for="jumlah" class="form-label">Jumlah Produk</label>
-                 <input type="text" id="jumlah" class="form-control mb-3" aria-describedby="passwordHelpBlock">
-                 
-                 <button type="submit" class="btn btn-primary">Pesan!</button>
+                <div class="alert alert-success alert-dismissible fade show mb-3 pesanalert d-none" role="alert">
+                    <strong>Terimakasih!</strong> Pesanan Anda Sudah Kami Terima.
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                  </div>
+                 <form action="" name="submit-to-google-sheet">
+                    <label for="nama" class="form-label">Nama Lengkap</label>
+                    <input type="text" id="nama" name="nama" class="form-control" aria-describedby="passwordHelpBlock" required autocomplete="off">
+                    <label for="alamat" class="form-label">Alamat Lengkap</label>
+                    <input type="text" name="alamat" id="Alamat" class="form-control" aria-describedby="passwordHelpBlock" required autocomplete="off">
+                    <label for="hp" class="form-label">No. Handphone</label>
+                    <input type="text" name="handphone" id="hp" class="form-control" aria-describedby="passwordHelpBlock" required autocomplete="off">
+                    <label for="produk" class="form-label">Produk Yang Dipilih</label>
+                    <input type="text" id="produk" name="produk_dipilih" class="form-control" aria-describedby="passwordHelpBlock" required autocomplete="off">
+                    <label for="jumlah" class="form-label">Jumlah Produk</label>
+                    <input type="text" id="jumlah" name="jml_produk" class="form-control mb-3" aria-describedby="passwordHelpBlock" required autocomplete="off">
+                    <label for="jumlah" class="form-label">Total Harga</label>
+                    <input type="text" id="jumlah" name="total_harga" class="form-control mb-3" aria-describedby="passwordHelpBlock" required autocomplete="off">
+                    <label for="jumlah" class="form-label">Saran</label>
+                    <input type="text" id="jumlah" name="saran" class="form-control mb-3" aria-describedby="passwordHelpBlock" required autocomplete="off">
+                    
+                    <button type="submit" class="btn btn-primary btnpesan">Pesan!</button>
+                    <button class="btn btn-primary btnloading d-none" type="button" disabled>
+                        <span class="spinner-border spinner-border-sm " role="status" aria-hidden="true"></span>
+                        Loading...
+                      </button>
+                </form>
+                <!-- https://docs.google.com/spreadsheets/d/1ptVL5U9VWkZr2AMFBkOjlMmvTZBevkPnlF1nv63y24M/edit#gid=0 -->
             </div>
+           
             
             
         </div>
@@ -163,7 +181,7 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                <p> Created By <a href="#"> IT CV. DIKPOL ABADI </a></p> 
+                <p> Created By <a href="#"> IT FACIL STORE</a></p> 
                 <p>Mahasiswa Politekni Negeri Sriwijaya (POLSRI) Tahun 2021/2022</p>
             </div>
         </div>
@@ -181,10 +199,35 @@
 
 
  
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
 
 
     <script src="script.js"></script>
+
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbz5vON7Es5oLi-iZ6-cQYorsth4QgHSmo_zpDJ-rXwCKuvSQYcj4kuVG9dvivhQzAAv/exec';
+        const form = document.forms['submit-to-google-sheet'];
+        const btnLoading = document.querySelector('.btnloading');
+        const alert = document.querySelector('.pesanalert');
+        const btnPesan = document.querySelector('.btnpesan');
+      
+        form.addEventListener('submit', e => {
+            btnLoading.classList.toggle('d-none');
+            btnPesan.classList.toggle('d-none');
+
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                console.log('Success!', response),
+                form.reset(),
+                btnLoading.classList.toggle('d-none'),
+                btnPesan.classList.toggle('d-none'),
+                alert.classList.toggle('d-none')
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+      
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
