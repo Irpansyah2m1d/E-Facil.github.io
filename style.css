@@ -1,3 +1,9 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .jumbotron {
   padding-top: 5rem;
   background-color: #00bfff;
@@ -5,6 +11,12 @@
 
 .logo {
   width: 200px;
+  border-radius: 50%;
+}
+
+.aboutdata {
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
 }
 
@@ -20,4 +32,8 @@
 
 a {
   text-decoration: none;
+}
+
+.dataproduk {
+  width: 100%;
 }

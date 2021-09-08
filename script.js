@@ -30,3 +30,35 @@ window.onload = function () {
     }
   }, 2000);
 };
+
+const jmlProduk = document.getElementById("jumlahProduk");
+const hargaProduk = document.getElementById("total");
+const select = document.querySelector("select");
+
+select.addEventListener("click", function () {
+  // console.log(select.value);
+  let a = "";
+  if (select.value === "Pas Bunga Minimalis") {
+    a = 20000;
+  } else if (select.value === "Produk 1") {
+    a = 15000;
+  } else if (select.value === "Produk 2") {
+    a = 10000;
+  }
+  jmlProduk.addEventListener("input", function () {
+    // console.log(jmlproduk.value);
+
+    total.setAttribute("value", "Rp. " + jmlProduk.value * a);
+  });
+});
+
+// tb1.addEventListener("click", function () {
+//   a = 3000;
+// });
+
+// for (let i = 1; i < userProduk.length; i++) {
+//   userProduk[i].addEventListener("change", function () {
+//     console.log(userProduk[i].value);
+//     console.log("benar");
+//   });
+// }
