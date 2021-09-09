@@ -49,8 +49,8 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <img src="img/facil/brand1.png" alt="Brand Perusahaan" class="logo img-thumbnail">
-                     <h1 class="text-white fw-bold mb-5">Facil Group Member</h1>
+                    <img src="img/facil/brand1.png" alt="Brand Perusahaan" class="logo">
+                     <h1 class=" faciljudul fw-bold mb-5">Facil Group Member</h1>
     
                 </div>
             </div>
@@ -167,7 +167,7 @@
         <div class="row">
             <div class="col">
                 <p data-aos="fade-up"
-                data-aos-anchor-placement="bottom-bottom"> Created By <i class="bi bi-facebook"></i> <i class="bi bi-instagram"> </i><i class="bi bi-youtube"></i><a href="#">  IT FACIL STORE   </a></p> 
+                data-aos-anchor-placement="bottom-bottom"> Created By <i class="bi bi-facebook"></i> <i class="bi bi-instagram"> </i><a href="https://www.youtube.com/watch?v=vfA4dsF2gOY" target="_blank"><i class="bi bi-youtube"></i></a><a href="https://www.youtube.com/watch?v=vfA4dsF2gOY" target="_blank">  IT FACIL STORE   </a></p> 
                 <p data-aos="fade-up"
                 data-aos-anchor-placement="bottom-bottom">Mahasiswa Politekni Negeri Sriwijaya (POLSRI) Tahun 2021/2022</p>
                 <p data-aos="fade-up"
@@ -192,6 +192,15 @@
  
     <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/TextPlugin.min.js"></script>
+    <script>
+        gsap.registerPlugin(TextPlugin);
+        // gsap.to('.deskfacil', {duration: 3, delay: 1.7, text: "Toko Online Tercepat, Teraman dan Terpercaya Serta Mudah Di Gunakan" })
+        // gsap.from('.navbar', {duration: 1, y: -100, ease: 'bounce' })
+        gsap.from('.faciljudul', {duration: 2.5, x: -100, opacity: 0, ease: 'back', delay: 1.2})
+        gsap.from('.logo', {duration: 2.5, opacity: 0, rotateY: 360, ease: 'slow', delay: 1 })
+    </script>
     <script>
         AOS.init();
       </script>
