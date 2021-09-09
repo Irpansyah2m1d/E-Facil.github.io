@@ -6,6 +6,7 @@ let i = 0;
 let j = 0;
 let h = 0;
 const gambar = ["gambar1", "gambar2", "gambar3"];
+const gProduk = ["gambar8", "gambar10", "gambar9"];
 
 window.onload = function () {
   setInterval(function () {
@@ -16,7 +17,7 @@ window.onload = function () {
     }
   }, 1000);
   setInterval(function () {
-    dua.setAttribute("src", "img/" + gambar[j++] + ".png");
+    dua.setAttribute("src", "img/" + gProduk[j++] + ".jpeg");
 
     if (j === gambar.length) {
       j = 0;
