@@ -8,6 +8,8 @@
     <!-- Bootstrap CSS -->
     <link href="bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="bootstrap-5.0.2-dist/icons-1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <link rel="stylesheet" href="style.css"> 
     <link rel="shorcut icon" href="img/brand.ico">
 
@@ -15,7 +17,7 @@
   </head>
   <body>
 <!-- Awal Navbar -->
-    <nav class="navbar navbar-expand-md navbar-dark bg-primary shadow-lg fixed-top">
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary shadow-lg fixed-top navbarset">
     <div class="container">
     <img src="img/facil/brand1.png" class="brand">   
         <a href="#" class="navbar-brand me-auto ms-2 fw-bold">  E-FACIL </a>
@@ -43,8 +45,8 @@
 
 <!-- Isi -->
     <section class="jumbotron text-center">
-        <img src="img/facil/brand1.png" alt="Brand Perusahaan" class="logo img-thumbnail">
-        <h1 class="text-white">Facil Store</h1>
+        <img src="img/facil/brand1.png" alt="Brand Perusahaan" class="logo">
+        <h1 class="fw-bold">Facil Store</h1>
         <p class="fw-bold">Perusahaan yang bergerak dibidang pembuatan kerajinan-kerajinan</p>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffff" fill-opacity="1" d="M0,256L48,229.3C96,203,192,149,288,149.3C384,149,480,203,576,213.3C672,224,768,192,864,181.3C960,171,1056,181,1152,197.3C1248,213,1344,235,1392,245.3L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
     </section>
@@ -53,19 +55,27 @@
         <div class="container text-center">
             <div class="row text-center">
                 <div class="col mb-3">
-                    <h2 class="fw-bold"><em>History of Facil Group</em></h2>
+                    <h2 class="fw-bold" data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="800"><em>History of Facil Group</em></h2>
                 </div>
             </div>
             <div class="row text-center">
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
+                data-aos-duration="700">
                     <p><b>Facil Group</b> merupakan perusahaan berjenis Home Industri yang saat menjual berbagai produk mulai dari alat-alat elektronik sampai kebutuhan rumah tangga dengan harga yang terjangkau. Perusahaan ini di dirikan pada tanggal 08 September 2021 dan di rintis oleh Mahasiswa Politeknik Negeri Sriwijaya. Perusahaan ini berlokasi di daerah perkantoran, tepatnya Jl. Kapten Anwar Sastro, Sungai Pangeran, Kecamatan Ilir Timur I, Palembang, Sumatera Selatan.</p>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="fade-left"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"
+                data-aos-duration="900">
                     <p>Website ini merupakan laman resmi dari Facil Group dimana para penjual dan pembeli dapat melakukan kegiatan Jual-Beli dengan aman dan terpercaya. Facil Group selalu berusaha untuk bisa memenuhi ekspetasi pengguna layanan ini, karena kenyamanan pengguna adalah prioritas kami. Facil Group secara resmi telah menjadi layanan platform jual-beli dan dipercaya oleh banyak kalangan baik dari orang dewasa maupun anak muda milenial pada masa sekarang ini.</p>
                 </div>
             </div>
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#00bfff" fill-opacity="1" d="M0,224L40,218.7C80,213,160,203,240,186.7C320,171,400,149,480,165.3C560,181,640,235,720,240C800,245,880,203,960,186.7C1040,171,1120,181,1200,197.3C1280,213,1360,235,1400,245.3L1440,256L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#40e0d0" fill-opacity="1" d="M0,224L40,218.7C80,213,160,203,240,186.7C320,171,400,149,480,165.3C560,181,640,235,720,240C800,245,880,203,960,186.7C1040,171,1120,181,1200,197.3C1280,213,1360,235,1400,245.3L1440,256L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
         
     </section>
 
@@ -78,12 +88,12 @@
     <div class="container">
         <div class="row mb-3">
             <div class="col text-center">
-                <h2 class="fw-bold">Produk Unggulan</h2>
+                <h2 class="fw-bold" data-aos="fade-up" data-aos-duration="700">Produk Unggulan</h2>
             </div>
         </div>
         <div class="row text-center">
             <div class="col-md-4">
-                <div class="card mb-3" >
+                <div class="card mb-3" data-aos="zoom-in" data-aos-duration="1000" >
                     <img src="img/gambar1.png" class="card-img-top const1 " alt="...">
                     <div class="card-body">
                         <h5 class="card-title fw-bold">Contoh Produk 1</h5>
@@ -94,7 +104,7 @@
                 </div>
             </div>
             <div class="col-md-4 mb-3 ">
-                <div class="card ">
+                <div class="card " data-aos="zoom-in" data-aos-duration="1250">
                     <img src="img/gambar2.png" class="card-img-top const2" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Pas Bunga Minimalis</h5>
@@ -105,7 +115,7 @@
                 </div>
             </div>
             <div class="col-md-4 ">
-                <div class="card mb-3">
+                <div class="card mb-3 " data-aos="zoom-in" data-aos-duration="1500">
                     <img src="img/gambar3.png" class="card-img-top const3" alt="...">
                     <div class="card-body">
                         <h5 class="card-title fw-bold">Contoh Produk 2</h5>
@@ -131,7 +141,9 @@
     <div class="container" id="beli">
         <div class="row mb-5">
             <div class="col text-center">
-                <h2 class="fw-bold">Pemesanan Produk</h2>
+                <h2 class="fw-bold" data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="1000">Pemesanan Produk</h2>
             </div>
         </div>
         <div class="row justify-content-center">
@@ -141,27 +153,35 @@
                     <strong>Terimakasih!</strong> Pesanan Anda Sudah Kami Terima.
                     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                   </div>
-                 <form action="" name="submit-to-google-sheet">
+                 <form action="" name="submit-to-google-sheet" >
                     <label for="nama" class="form-label">Nama Lengkap</label>
-                    <input type="text" id="nama" name="nama" class="form-control mb-2" aria-describedby="passwordHelpBlock" required autocomplete="off">
+                    <input type="text" id="nama" name="nama" class="form-control mb-2" aria-describedby="passwordHelpBlock" required autocomplete="off" data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom">
                     <label for="alamat" class="form-label">Alamat Lengkap</label>
-                    <input type="text" name="alamat" id="Alamat" class="form-control mb-2" aria-describedby="passwordHelpBlock" required autocomplete="off">
+                    <input type="text" name="alamat" id="Alamat" class="form-control mb-2" aria-describedby="passwordHelpBlock" required autocomplete="off" data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom">
                     <label for="hp" class="form-label">No. Handphone</label>
-                    <input type="telp" name="handphone" id="hp" class="form-control mb-2" aria-describedby="passwordHelpBlock" required autocomplete="off" maxlength="12">
+                    <input type="telp" name="handphone" id="hp" class="form-control mb-2" aria-describedby="passwordHelpBlock" required autocomplete="off" maxlength="12" data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom">
                     <label for="produk" class="form-label">Produk Yang Dipilih</label>
-                    <select class="form-select mb-2 userproduk" aria-label="Default select example" name="produk_dipilih" id="produk">
+                    <select class="form-select mb-2 userproduk" aria-label="Default select example" name="produk_dipilih" id="produk" data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom">
                         <option selected value="0">--Pilih Produk--</option>
                         <option class="select1" id="" value="Pas Bunga Minimalis">Pas Bunga Minimalis</option>
                         <option class="select2" value="Produk 1">Produk 1</option>
                         <option class="select3" value="Produk 2">Produk 2</option>
                       </select>
                     <label for="jumlah" class="form-label">Jumlah Produk</label>
-                    <input type="number" step="1" placeholder="0" id="jumlahProduk" min="0" name="jml_produk" class="form-control mb-3" aria-describedby="passwordHelpBlock" required autocomplete="off">
+                    <input type="number" step="1" placeholder="0" id="jumlahProduk" min="0" name="jml_produk" class="form-control mb-3" aria-describedby="passwordHelpBlock" required autocomplete="off" data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom">
                     <label for="total" class="form-label">Total Harga</label>
-                    <input type="text" id="total" name="total_harga" class="form-control mb-3" readonly aria-describedby="passwordHelpBlock" required autocomplete="off" value="0" >
+                    <input type="text" id="total" name="total_harga" class="form-control mb-3" readonly aria-describedby="passwordHelpBlock" required autocomplete="off" value="0" data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom" >
                     <label for="saran" class="form-label">Saran</label>
-                    <textarea class="form-control mb-3" name="saran" placeholder="Masukan Saran Anda..." id="saran" style="height: 100px"></textarea>
-                    <button type="submit" class="btn btn-primary btnpesan">Pesan!</button>
+                    <textarea class="form-control mb-3" name="saran" placeholder="Masukan Saran Anda..." id="saran" style="height: 100px" data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom"></textarea>
+                    <button type="submit" class="btn btn-primary btnpesan" data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom">Pesan!</button>
                     <button class="btn btn-primary btnloading d-none" type="button" >
                         <span class="spinner-border spinner-border-sm " role="status" aria-hidden="true"></span>
                         Loading...
@@ -187,9 +207,12 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                <p> Created By <i class="bi bi-facebook"></i> <i class="bi bi-instagram"> </i><i class="bi bi-youtube"></i><a href="#">  IT FACIL STORE   </a></p> 
-                <p>Mahasiswa Politekni Negeri Sriwijaya (POLSRI) Tahun 2021/2022</p>
-                <p>Jl. Kapten Anwar Sastro, Sungai Pangeran, Kec. Ilir Tim. I, Kota Palembang, Sumatera Selatan 30121</p>
+                <p data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom"> Created By <i class="bi bi-facebook"></i> <i class="bi bi-instagram"> </i><i class="bi bi-youtube"></i><a href="#">  IT FACIL STORE   </a></p> 
+                <p data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom">Mahasiswa Politekni Negeri Sriwijaya (POLSRI) Tahun 2021/2022</p>
+                <p data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom">Jl. Kapten Anwar Sastro, Sungai Pangeran, Kec. Ilir Tim. I, Kota Palembang, Sumatera Selatan 30121</p>
             </div>
         </div>
     </div>
@@ -207,6 +230,11 @@
 
  
     <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  
 
 
     <script src="script.js"></script>
