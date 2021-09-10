@@ -4,6 +4,11 @@ body {
   padding: 0;
 }
 
+body,
+section {
+  overflow-x: hidden;
+}
+
 .jumbotron {
   padding-top: 5rem;
   background-color: Turquoise;
@@ -47,7 +52,3 @@ a {
 .download {
   margin-top: 4rem;
 }
-
-body {
-  
-} */
